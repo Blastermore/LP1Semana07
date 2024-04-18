@@ -9,5 +9,24 @@ classDiagram
     Character <|-- Player
     Character <|-- Enemy
     
-    class Weapon
+    class Weapon{
         #power : float
+    }
+    class Gun{
+        +Ammo : int
+        +FireGun() void
+    }
+    class Sword{
+        +BladeLength : float
+        +AttackWithSword() void
+    }
+    class Character{
+        #weapons[] : Weapon
+        +Name : string
+        +Fight() void
+    }
+    class Player{
+    }
+    class Enemy{
+    }
+```
