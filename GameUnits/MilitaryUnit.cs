@@ -23,7 +23,7 @@ namespace GameUnits
         {
             get => AttackPower + XP;
         }
-        public void Attack(uint u)
+        public void Attack(Unit u)
         {
             XP++;
             u.Health = u.Health - AttackPower; 

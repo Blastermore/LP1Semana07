@@ -1,3 +1,5 @@
+using System;
+
 namespace GameUnits
 {
     public abstract class Unit
@@ -11,7 +13,7 @@ namespace GameUnits
             this.movement = movement;
             Health = health;
         }
-        private void Move()
+        public void Move()
         {
             Console.WriteLine(movement);
         }

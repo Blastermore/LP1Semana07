@@ -6,8 +6,8 @@ namespace GameUnits
     {
         static void Main(string[] args)
         {
-            Unit MilitaryUnit mu = new MilitaryUnit(5,10,10);
-            Unit SettlerUnit su = new SettlerUnit(10,5);
+            Unit  mu = new MilitaryUnit(5,10,10);
+            Unit  su = new SettlerUnit();
 
             mu.Move();
             su.Move();
