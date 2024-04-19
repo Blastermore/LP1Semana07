@@ -12,7 +12,7 @@ namespace GameUnits
         }
         public override int Health
         {
-            GameUnits => base.Health + XP;
+            get => base.Health + XP;
 
             set
             {

@@ -9,6 +9,6 @@ namespace GameUnits
     {
         public SettlerUnit():base(mov = 1,health = 3)
 
-        public override float Cost{get;} = 5
+        public override float Cost{get;} = 5;
     }
 }
